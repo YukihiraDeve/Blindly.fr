@@ -1,0 +1,35 @@
+# Désactiver l'affichage du contenu des répertoires
+Options All -Indexes
+
+# Masquer les informations du serveur
+ServerSignature Off
+
+# Activation du suivi des liens symboliques
+Options +FollowSymLinks
+
+# Choix du fuseau horaire
+SetEnv TZ Europe/Paris
+
+# Encodage par défaut des fichiers textes et HTML
+AddDefaultCharset UTF-8
+
+<files db.php>
+order allow,deny
+deny from all
+</files>
+
+# Protéger les fichiers .htaccess et .htpasswds
+<Files ~ "^.*\.([Hh][Tt][AaPp])">
+order allow,deny
+deny from all
+satisfy all
+</Files>
+
+
+# Désactiver le hotlinking de vos images
+RewriteEngine On
+RewriteCond %{HTTP_REFERER} !^$
+RewriteCond %{HTTP_REFERER} !^http(s)?://(www\.)?monsite.com [NC]
+RewriteRule \.(jpg|jpeg|png|gif)$ http://fakeimg.pl/400x200/?text=Pas_touche_aux_images [NC,R,L]
+
+

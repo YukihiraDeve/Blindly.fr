@@ -1,0 +1,64 @@
+.center{
+    padding-bottom:1em;
+    font-size: 100px !important;
+}
+
+.padding-none{
+    padding:0px !important;
+}
+
+.padding-number{
+    padding:0px !important;
+    margin-left:270px !important;
+}
+
+.retour{
+   
+    margin:20px;
+    margin-top:100px;
+}
+
+#textPoints{
+    display:inline;
+}
+
+#points{
+    display:inline;
+}
+.display-points{
+    display: inline-block;
+}
+
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index:1;
+  }
+
+  .content {
+    position: fixed;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    z-index:99;
+    height:100%;
+  }
+
+  .carte{
+      margin-top:250px;
+      padding-top:40px;
+      padding-bottom:40px;
+      border-radius: 7px;
+  }
+
+  @media screen and (max-width: 700px){
+    
+    .padding-number{
+        padding:0px !important;
+        margin-left:100px !important;
+    }
+   
+}

@@ -1,0 +1,13 @@
+.boxy{
+    margin-top:10rem;
+    padding-top:2em;
+    padding-bottom:2em;
+    border: 2px solid white;
+    border-radius: 10px 10px 10px;
+}
+
+.boxy-input{
+    padding-left: 2em;
+    padding-right:2em;
+    padding-bottom: 1em;
+}

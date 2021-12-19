@@ -1,0 +1,65 @@
+/* <=== Header ===> */
+
+.navbar{
+    padding-top:0rem !important;
+    padding-bottom:0rem !important;
+}
+
+.ul{
+    padding-left:0px;
+    list-style: none;
+}
+
+.slogan{
+  padding-right:0.8em;
+}
+
+.son{
+  text-align:right;
+  margin-left:auto;
+  margin-right:10px;
+}
+
+.stock{
+  padding-left:0px !important;
+}
+
+.togglemenu{
+  margin-left:20px;
+  height:50px;
+  margin-top:5px;
+
+}
+
+
+li{
+  list-style: none;
+}
+
+.blindly{
+  color:white;
+  font-size: 1.5em;
+  list-style-type: none;
+  margin-top:8px;
+  font-size: 1.5em;
+  margin-left:10px;
+}
+
+.parametre{
+  padding-top:30px;
+}
+
+header{
+  line-height:1;
+  width: 100%;
+  box-shadow: 0px 0px 8px rgba(0,0,0,.6);
+  position:fixed;
+  z-index:99;
+
+}
+
+#ahrefDisconnect{
+  list-style:none ;
+  text-decoration: none;
+}
+

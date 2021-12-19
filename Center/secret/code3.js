@@ -1,0 +1,2 @@
+// Maybe tkt
+document.addEventListener('keyup', Key);array = [];arrayTempo = ["B", "O", "O"];let i = 0;function Key(e) {i++;const kle = e.code;if (kle.includes("Key")) {const check = kle.split("Key");const value = check[1];array.push(value);console.log(value);}if (JSON.stringify(array) === JSON.stringify(arrayTempo)) {window.location.href = '/Center/secret/secret.php';}}

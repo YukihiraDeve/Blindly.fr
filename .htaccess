@@ -1,0 +1,7 @@
+Options -Indexes
+ErrorDocument 401 /Error/Error401.html
+ErrorDocument 403 /Error/Error403.html
+ErrorDocument 404 /Error/Error404.html
+ErrorDocument 500 /Error/Error500.html
+
+

@@ -1,0 +1,275 @@
+body {
+    min-height:100vh;
+    
+}
+
+header{
+    z-index:999;
+    position:fixed;
+    line-height:1;
+    width: 100%;
+    box-shadow: 0px 0px 8px rgba(0,0,0,.6);
+
+}
+
+.side-number{
+    line-height:1;
+    font-weight:600;
+    margin-left:auto;
+    padding-left: 1rem;
+    text-align:right;
+}
+
+.bordure{
+    border:1px solid white;
+}
+
+
+
+
+html{
+    height:100%;
+}
+
+main{
+    min-height:90vh;
+    padding-top:5em;
+}
+
+.titre{
+    text-align: center;
+    padding-top:0.5em;
+    padding-bottom:0.5em;
+}
+
+.boxe{
+    border-radius:30px;
+    min-height:70vh;
+    padding-left:2em;
+    
+}
+
+
+
+.togglemenuleft{
+    border:block 1;
+    border-color: black,
+}
+
+legend{
+    margin:10px;
+    font-size:1.0em;
+    padding:0.7em;
+}
+
+.droite{
+    margin-right:0;
+    padding-right:0;
+}
+.togglemenu{
+    height:40px;
+    padding-left:10px;
+}
+
+.blindly{
+    color:white;
+    font-size: 1.5em;
+}
+
+.espacement{
+    padding-top:3em;
+}
+
+.blanc{
+    border:solid 2px white;
+    margin:2em;
+    margin-bottom:0em;
+    max-width: 80px;
+    min-height: 100px;
+}
+
+.bleu{
+    border:solid 3px #0d6efd;
+    margin:2em;
+    margin-bottom:0em;
+    max-width: 80px;
+    min-height: 100px;
+}
+
+.message{
+    line-height:1;
+    font-weight:600;
+    margin-left:auto;
+    padding-left: 1rem;
+    padding:0;
+    font-weight: 100;
+}
+.rouge{
+    border:solid 3px #dc3545;
+    margin:2em;
+    margin-bottom:0em;
+    max-width: 80px;
+    min-height: 100px;
+
+}
+
+
+.boxy{
+    max-height: 200px;
+    max-width: 200px;
+    width: 60vh;
+    height: 60vh;
+    position:relative;
+    border-radius:10px;
+    filter: drop-shadow(0px 30px 10px rgba(4, 4, 4, 0.501)) !important;
+}
+
+.joueur{
+    padding-top:1em;
+    text-align:center;
+}
+
+.ligne1{
+    padding-bottom:2em;
+}
+
+.mdj{
+    border:solid 1px white;
+    margin:2em;
+    margin-bottom:0em;
+    max-width: 80px;
+    min-height: 100px;
+}
+
+.ligne{
+    background-color: rgb(196, 196, 196);
+    margin:1em;
+    padding:0.2em;
+    border-radius:5px;
+    margin-left:auto;
+}
+
+.players{
+    margin-left:10px;
+}
+
+.user{
+    border:solid 1px white;
+    margin:1em;
+    padding:1.3em;
+    margin-left:0;
+}
+
+.catégorie{
+    padding-left:2em;
+}
+
+.chattext{
+    border:solid 1px white;
+    margin:2em;
+    padding:10px;
+}
+
+.chat{
+    padding-bottom:10em;
+}
+
+.ligne2{
+    padding-top:30px;
+}
+
+.bouton{
+    padding:0.8em;
+    border-radius:10px;
+    text-align:center;
+    filter: drop-shadow(0px 30px 10px rgba(4, 4, 4, 0.501)) !important;
+}
+.cat{
+    margin-left:1rem;
+    line-height: 2;
+
+}
+
+.foot{
+    padding-top:2rem;
+    padding-bottom:2rem;
+}
+
+h5{
+    margin-bottom:0;
+}
+
+.bordure-bottom{
+    border-bottom:solid 2px white;
+    padding-bottom: 6px;
+    
+}
+
+.bordure-menu{
+    border-bottom:solid 1px white;
+    padding-bottom:10px;
+    margin-bottom: 10px;
+
+}
+
+
+.container{
+    margin-right:auto;
+    margin-left:auto;
+}
+
+.liste{
+    padding-left:14px;
+    list-style: none;
+}
+
+h8{
+    color:white;
+    font-size:13px;
+    margin-left:25px;
+}
+.Menu{
+    position:absolute;
+    min-width:22vh;
+    border-radius:1em;
+    padding-top:2em;
+    margin-top:2em;
+    margin-left:2em;
+    
+}
+
+.cacher{
+    margin-left:4em;
+}
+
+@keyframes slidebackground {
+
+    from {
+        background-image: url("../fond/8.png");
+    }
+
+    50% {
+        background-image: url("../fond/1.png");
+    }
+   
+    100% {
+        background-image: url("../fond/8.png");
+    }
+
+
+
+}
+
+@media all and (max-width:480px){
+
+header{
+    max-width: 10vh;
+}
+body{
+    max-width:10vh;
+}
+main{
+    max-width: 10vh;
+}
+
+}
